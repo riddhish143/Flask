@@ -1,0 +1,108 @@
+<h1>This is the first heading in html</h1>
+<h1>{{guy}}</h1>
+<!-- <p>{{do_this}}</p> this will not bold the content so we have to use
+the below for this -->
+<p>{{do_this|safe}}</p>
+
+<!-- This are all the filters -->
+<!-- safe this we save your code from hacker -->
+<!-- upper -> this will upper  all the letter of the word -->
+<!-- lower -> this will lower all the letter of the word -->
+<!-- capitalize -> this will capital the first letter of the word -->
+<!-- title -> this will capitalize each first word of all the sentence -->
+
+<!-- abs()
+attr()
+batch()
+capitalize()
+center()
+default()
+dictsort()
+escape()
+filesizeformat()
+first()
+float()
+forceescape()
+format()
+groupby()
+indent()
+int()
+items()
+join()
+last()
+length()
+list()
+lower()
+map()
+max()
+min()
+pprint()
+random()
+reject()
+rejectattr()
+replace()
+reverse()
+round()
+safe()
+select()
+selectattr()
+slice()
+sort()
+string()
+striptags()
+sum()
+title()
+tojson()
+trim()
+truncate()
+unique()
+upper()
+urlencode()
+urlize()
+wordcount()
+wordwrap()
+xmlattr()
+List of Builtin Tests
+boolean()
+callable()
+defined()
+divisibleby()
+eq()
+escaped()
+even()
+false()
+filter()
+float()
+ge()
+gt()
+in()
+integer()
+iterable()
+le()
+lower()
+lt()
+mapping()
+ne()
+none()
+number()
+odd()
+sameas()
+sequence()
+string()
+test()
+true()
+undefined()
+upper() -->
+
+<!-- these are all the filters -->
+{% for name in python_list %}
+    {% if name == 'Riddhish'%}
+        {{ name + 'Handsome' }}<br>
+    {% else %}
+        {{ name }}<br>
+    {% endif %}
+{% endfor %}
+
+<br>
+<br>
+<!-- this will give the first element of the list -->
